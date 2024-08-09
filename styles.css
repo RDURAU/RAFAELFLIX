@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px blueviolet;
+    padding: 20px;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.chamada {
+    background: rgb(184 73 184);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50ṕx;
+
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+
+    color: blueviolet;
+}
